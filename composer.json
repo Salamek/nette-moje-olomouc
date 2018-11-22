@@ -1,0 +1,30 @@
+{
+  "name": "salamek/nette-moje-olomouc",
+  "type": "library",
+  "description": "This is a simple moje-olomouc integration into Nette Framework",
+  "keywords": [
+    "nette",
+    "moje-olomouc",
+    "olomouc"
+  ],
+  "license": [
+    "LGPL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "Adam Schubert"
+    }
+  ],
+  "require": {
+    "nette/di": "~2.4",
+    "salamek/moje-olomouc": "^0.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.4"
+  },
+  "autoload": {
+    "psr-0": {
+      "Salamek\\": "src/"
+    }
+  }
+}
