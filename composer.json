@@ -16,8 +16,9 @@
     }
   ],
   "require": {
+    "php": ">=7.1",
     "nette/di": "~2.4",
-    "salamek/moje-olomouc": "^0.2"
+    "salamek/moje-olomouc": "^0.3"
   },
   "require-dev": {
     "phpunit/phpunit": "^7.4"
